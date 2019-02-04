@@ -1,3 +1,9 @@
+#  規則
+> 一個人負責一部分 畫面與功能
+> 每一題資料夾為 class 1~10
+> class1 class2
+> angluar 採原生手打方式建置環境
+
 # Underground
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
