@@ -9,9 +9,20 @@
   max-width: calc(100% / 3);
 }
 .d-flex {
-  display: -ms-flexbox !important;
   display: flex !important;
+}
+.row-wrap{
+  flex-flow:row wrap;
+}
+.align-items-center{
+  align-items: center;
+}
+.flex-100{
+  flex:0 0 100%;
 }
 .w-100{
   width:100%;
+}
+.h-100{
+  height: 100%;
 }

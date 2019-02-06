@@ -1,10 +1,27 @@
-<ul class="row">
-  <li class="col-3 ">
-    <h1 class="font-PingFang">{{pageTitle}}</h1>
-    <h1 class="font-Helvetica"> {{pageEnTitle}}</h1>
+<ul class="row h-100 bg-color">
+  <li class="col-3 d-flex row-wrap">
+    <div class="line-top flex-100 d-flex align-items-center">
+      <p class="color-green w-7 text-center">x</p>
+      <div class="incline-line"></div>
+      <p class="color-green w-7 text-center">x</p>
+    </div>
+    <div class="title-group flex-100 text-center">
+      <h1 class="font-PingFang font-56 color-green">{{pageTitle}}</h1>
+      <h1 class="font-Helvetica font-24 color-green" color-green> {{pageEnTitle}}</h1>
+    </div>
+    <div class="line-top flex-100 d-flex align-items-center">
+      <p class="color-green w-7 text-center">x</p>
+      <div class="incline-line"></div>
+      <p class="color-green w-7 text-center">x</p>
+    </div>
+
   </li>
   <li class="col-3" *ngFor="let row of newResult ">
-    {{row.title}}
-    <span *ngFor="let rows of row.data">{{rows}}</span>
-  </li>
+    <div class="list-group bg-white">
+      <p class="font-Helvetica font-128 d-inline-block">{{row.title}}</p>
+
+      <div class="d-inline-block">
+        <p  *ngFor="let rows of row.data">{{rows}}</p>
+      </div>
+    </div>
 </ul>
