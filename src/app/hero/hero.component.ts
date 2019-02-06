@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.sass']
 })
 export class HeroComponent implements OnInit {
-  appTitle = 'myapp';
+  appTitle = '戰角';
   constructor() { }
 
   ngOnInit() {

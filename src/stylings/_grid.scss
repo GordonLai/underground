@@ -1,0 +1,17 @@
+.col-4 {
+  -ms-flex: 0 0 calc(100% / 4);
+  flex: 0 0 calc(100% / 4);
+  max-width: calc(100% / 4);
+}
+.col-3 {
+  -ms-flex: 0 0 calc(100% / 3);
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.w-100{
+  width:100%;
+}

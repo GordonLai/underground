@@ -1,3 +1,10 @@
-<p>
-  class1 works!
-</p>
+<ul class="row">
+  <li class="col-3 ">
+    <h1 class="font-PingFang">{{pageTitle}}</h1>
+    <h1 class="font-Helvetica"> {{pageEnTitle}}</h1>
+  </li>
+  <li class="col-3" *ngFor="let row of newResult ">
+    {{row.title}}
+    <span *ngFor="let rows of row.data">{{rows}}</span>
+  </li>
+</ul>

@@ -1,0 +1,20 @@
+@import "../../stylings/media.scss"
+.font-PingFang
+  font-family: 'PingFang TC, Medium';
+.font-Helvetica
+  font-family: Helvetica Neue, Regular
+ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+[class*="col-"] 
+  padding: 15px;
+@include sm
+  [class*="col-"] 
+    max-width: calc(100% / 2)
+    flex: 0 0 calc(100% / 2)
+@include xs 
+  [class*="col-"] 
+    max-width: 100%
+    flex: 0 0 100%
+
