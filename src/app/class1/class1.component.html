@@ -16,12 +16,14 @@
     </div>
 
   </li>
-  <li class="col-3" *ngFor="let row of newResult ">
-    <div class="list-group bg-white">
-      <p class="font-Helvetica font-128 d-inline-block">{{row.title}}</p>
+  <li class="col-3 h-366" *ngFor="let row of newResult ">
+    <div class="list-group bg-white text-center h-100">
+      <div class="list-content text-cente h-100">
+          <p class="font-Helvetica font-128 d-inline-block list-title">{{row.title}}</p>
 
-      <div class="d-inline-block">
-        <p  *ngFor="let rows of row.data">{{rows}}</p>
+          <p class="list-p" *ngFor="let rows of row.data">{{rows}}</p>
+  
       </div>
     </div>
+  </li>
 </ul>
